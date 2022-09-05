@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -al . .. | wc -l
+find . -type d -not -name '.' | wc -l
+
